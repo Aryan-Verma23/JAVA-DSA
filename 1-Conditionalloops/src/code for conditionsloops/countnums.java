@@ -1,7 +1,8 @@
+
 public class countnums {
     public static void main(String[] args) {
-        
-                int n = 45535;
+        System.out.println("Enter an Integer: ");
+        int n =465637;
         
                 int count = 0;
                 while (n > 0) {
@@ -9,7 +10,7 @@ public class countnums {
                     if (rem == 5) {
                         count++;
                     }
-                    n = n / 10; // n /= 10
+                    n = n / 10;
                 }
         
                 System.out.println(count);
