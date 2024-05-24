@@ -28,7 +28,6 @@ public class conditions {
       System.out.println(salary);
 
         int a = 10;
-        int b = 40;
 
         if (a != 35) {
             System.out.println("Hello World");
