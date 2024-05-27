@@ -8,7 +8,7 @@ public class fibbonacci
         //Q:find nth fibbonacci number?
        
         System.out.println("enter G: ");
-        int G = sc.nextInt();
+        int G = 10;
 
         int a =0,b=1;
 
@@ -17,8 +17,8 @@ public class fibbonacci
             System.out.print(a + " ");
 
             int c = a + b;
-            a = b ;
-            b=c;
+            a = b;
+            b = c;
             
            }
    
