@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class largestnumber {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        try(Scanner in = new Scanner(System.in);){
+        
 
         System.out.println("please enter 3 numbers: ");
 
@@ -22,5 +23,5 @@ public class largestnumber {
     
     
     }
-
+    }
 }

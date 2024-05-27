@@ -1,24 +1,35 @@
 import java.util.Scanner;
 public class fibbonacci {
     public static void main(String[] args) {
+        try(Scanner sc = new Scanner(System.in) // Ensure the scanner is closed
+        ) {
         //Q:find nth fibbonacci number?
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter n: ");
-        int n = sc.nextInt();
+       
+        System.out.println("enter G: ");
+        int G = sc.nextInt();
 
-        int a = 0;
-        int b = 1;
-        int count = 2;
+        int a =0,b=1;
 
-        while (count <= n){
-            int temp = b;
-            b= b+a;
-            a = temp;
-            count++;
+        for (int i = 0; i < G; i++) {
+            System.out.print(a + " ");
 
+            int c = a + b;
+            a = b ;
+            b=c;
+            
         }
-        System.out.println(b);
+
+        
+
+        
+        
+        
+
 
     }
+
     
+    
+}
+
 }

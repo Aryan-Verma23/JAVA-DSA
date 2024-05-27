@@ -1,8 +1,7 @@
-
 public class countnums {
     public static void main(String[] args) {
-        System.out.println("Enter an Integer: ");
-        int n =465637;
+       
+        int n =45535;
         
                 int count = 0;
                 while (n > 0) {
