@@ -1,10 +1,14 @@
 import java.util.Scanner;
 
-public class loops {
+public class loops 
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
 
-        try(Scanner in = new Scanner(System.in);){
+
+        try(Scanner in = new Scanner(System.in);)
+        {
       
           
             // Syntax of for loops:
@@ -62,6 +66,3 @@ public class loops {
         }
     }
 }
-
-
-
