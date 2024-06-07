@@ -1,8 +1,10 @@
+import java.util.Scanner;
 public class SwitchNew {
 
-    public class SwitchExample {
+   
         public static void main(String[] args) {
-            int dayOfWeek = 3;
+            try(Scanner sc = new Scanner(System.in);){
+                int dayOfWeek = sc.nextInt();
             String dayName;
     
             dayName = switch (dayOfWeek) {
