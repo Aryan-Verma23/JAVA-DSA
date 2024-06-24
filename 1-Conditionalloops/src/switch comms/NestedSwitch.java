@@ -3,8 +3,8 @@ public interface NestedSwitch {
     public static void main(String[] args) {
         try(final Scanner sc = new Scanner(System.in);){
 
-            int empID = sc.nextInt();
-            String department = sc.next();
+            int LernID = sc.nextInt();
+            String dpt = sc.next();
     
             switch (LernID) {
                 case 1 -> System.out.println("Aryan");
