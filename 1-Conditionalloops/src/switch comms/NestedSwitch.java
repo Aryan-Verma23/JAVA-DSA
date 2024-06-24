@@ -6,18 +6,17 @@ public interface NestedSwitch {
             int empID = sc.nextInt();
             String department = sc.next();
     
-            switch (empID) {
-                case 1 -> System.out.println("Kunal Kushwaha");
-                case 2 -> System.out.println("Rahul Rana");
-                case 3 -> {
-                    System.out.println("Emp Number 3");
-                    switch (department) {
-                        case "IT" -> System.out.println("IT Department");
-                        case "Management" -> System.out.println("Management Department");
-                        default -> System.out.println("No department entered");
+            switch (LernID) {
+                case 1 -> System.out.println("Aryan");
+                case 2 -> {
+                    System.out.println("lern Number 2");
+                    switch (dpt) {
+                        case "IT" -> System.out.println("IT dpt");
+                        case "elec" -> System.out.println("elec Dpt");
+                        default -> System.out.println("No dpt entered");
                     }
                 }
-                default -> System.out.println("Enter correct EmpID");
+                default -> System.out.println("Enter correct lernID");
             }
 
 
