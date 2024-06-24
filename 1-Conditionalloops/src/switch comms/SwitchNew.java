@@ -4,6 +4,7 @@ public class SwitchNew {
    
         public static void main(String[] args) {
             try(Scanner sc = new Scanner(System.in);){
+                System.out.println("Enter desired number: ");
                 int dayOfWeek = sc.nextInt();
             String dayName;
     
