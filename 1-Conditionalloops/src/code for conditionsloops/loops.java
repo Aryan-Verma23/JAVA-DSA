@@ -19,7 +19,7 @@ public class loops
         
 
          // Q: Print numbers from 1 to 5
-         for (int num = 1; num <= 5; num += 2) {
+         for (int num = 1; num <= 100; num += 2) {
           System.out.println(num);
          }
 
